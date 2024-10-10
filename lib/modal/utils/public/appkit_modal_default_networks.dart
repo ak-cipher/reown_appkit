@@ -133,6 +133,15 @@ class ReownAppKitModalNetworks {
         rpcUrl: 'https://mainnet.aurora.dev',
         explorerUrl: 'https://explorer.aurora.dev',
       ),
+       ReownAppKitModalNetworkInfo(
+        name: 'Amoy',
+        chainId: '80002',
+        currency: 'MATIC',
+        rpcUrl: 'https://rpc-amoy.polygon.technology/',
+        extraRpcUrls: [],
+        explorerUrl: 'https://amoy.polygonscan.com',
+        isTestNetwork: true,
+      )
     ],
   };
 
@@ -170,15 +179,7 @@ class ReownAppKitModalNetworks {
         rpcUrl: 'https://metis-mainnet.public.blastapi.io',
         explorerUrl: 'https://andromeda-explorer.metis.io',
       ),
-       ReownAppKitModalNetworkInfo(
-        name: 'Amoy',
-        chainId: '80002',
-        currency: 'MATIC',
-        rpcUrl: 'https://rpc-amoy.polygon.technology/',
-        extraRpcUrls: [],
-        explorerUrl: 'https://amoy.polygonscan.com',
-        isTestNetwork: true,
-      )
+      
     ]
   };
 
